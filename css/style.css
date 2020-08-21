@@ -120,7 +120,14 @@
       margin: 2rem auto .5rem;
       display: none;
   }
-  /*------------ bootstrap------------- */
+  footer .icon{
+   font-size: 1rem;
+  }
+ .footerIcon{
+   display: flex;
+  flex-direction: column;
+ }
+    /*bootstrap- */
   /*navbar*/
   .logo{
     width:50px;
@@ -176,6 +183,7 @@
      display: block;
    }
    .copy{
+     font-size: 1rem;
     display: block;
   }
 }
